@@ -1,11 +1,9 @@
-import { CounterApp } from "./CounterApp";
-import { PokemonFetch } from "./PokemonFetch";
+import { CustomHook } from "./Components/CustomHook";
 
 function App() {
   return (
     <>
-      <CounterApp value={10} />
-      <PokemonFetch />
+      <CustomHook />
     </>
   );
 }
